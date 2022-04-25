@@ -22,17 +22,12 @@
             <artifactId>commons-lang3</artifactId>
             <version>3.12.0</version>
         </dependency>
-        <dependency>
-            <groupId>com.electronwill.night-config</groupId>
-            <artifactId>toml</artifactId>
-            <version>3.6.5</version>
-        </dependency>
     </dependencies>
 
     <!-- This builds a completely 'ready to start' jar with all dependencies inside -->
     <build>
         <finalName>zadkiel</finalName>
-        <defaultGoal>install</defaultGoal> <!-- Paper -->
+        <defaultGoal>clean install</defaultGoal>
         <plugins>
             <plugin>
                 <groupId>com.lukegb.mojo</groupId>
