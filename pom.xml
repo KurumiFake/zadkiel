@@ -57,7 +57,7 @@
                             <addDefaultEntries>false</addDefaultEntries>
                         </manifest>
                         <manifestEntries>
-                            <Main-Class>me.kurumifake.zadkiel.ZadkielLauncher</Main-Class>
+                            <Main-Class>me.kurumifake.zadkiel.MenuPrincipal</Main-Class>
                             <Implementation-Title>Zadkiel</Implementation-Title>
                             <!--suppress MavenModelInspection -->
                             <Implementation-Version>${describe}</Implementation-Version>
