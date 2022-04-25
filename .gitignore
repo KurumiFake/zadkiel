@@ -1,0 +1,12 @@
+*.jar
+*.class
+target/
+
+*.tar.gz
+*.tar.xz
+*.rar
+*.zip
+
+*.log
+
+hs_err_pid*
