@@ -95,7 +95,7 @@ public class Flooders {
             for (int i = 0; i < 1900; i++) {
                 out.write(1);
                 out.write(0);
-            } l
+            }
         });
         this.flooders.put("ultrajoin", (out, host, port) -> {
             long seconds = TimeUnit.MILLISECONDS.toSeconds(System.currentTimeMillis());

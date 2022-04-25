@@ -24,8 +24,8 @@ public class Zadkiel {
 
     public void launch() {
     if (!this.options.isOption("host")) {
-        System.out.println("\033[31mExample:");
-        System.out.println("\033[32mjava -jar\033[35m CIPHER-BOT.jar\033[32m host=? port=? proxies=? threads=? time=? method=?");
+        System.out.println("args list:");
+        System.out.println("host=? port=? proxies=? threads=? time=? method=?");
             return;
         }
     String proxiesType = (String)this.options.getOption("proxiesType", "socks");
