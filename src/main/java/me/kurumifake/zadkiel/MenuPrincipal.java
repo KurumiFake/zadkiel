@@ -18,7 +18,7 @@ import me.kurumifake.zadkiel.Options.options;
 
 public class MenuPrincipal {
     private static Proxies proxies;
-    }
+
     System.out.println("<ip:port> <threads> <connections> <proxies file>");
     ProxiesGetter.downloadFile(proxies);
     if (args.length != 4)
